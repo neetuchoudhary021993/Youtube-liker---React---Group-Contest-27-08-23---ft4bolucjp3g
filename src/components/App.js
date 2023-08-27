@@ -18,7 +18,7 @@ const App = () => {
   }
   return (
     <div id="main">
-      <img id="like-btn-img" src="like.svg" alt="Like" tyle={likeButtonStyle}  onClick={toggleLike}/>
+      <img id="like-btn-img" src="like.svg" alt="Like" style={likeButtonStyle}  onClick={toggleLike}/>
       <h3>Likes: <span id="like-counter">{count}</span></h3>
     </div>
   )
